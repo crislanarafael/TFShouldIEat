@@ -3,7 +3,9 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/crisl/AndroidStudioProjects/RandomFoodGenerator/app/src/main/res/font/font.xml" value="0.17291666666666666" />
         <entry key="..\:/Users/crisl/AndroidStudioProjects/RandomFoodGenerator/app/src/main/res/layout/activity_main.xml" value="0.22735507246376813" />
+        <entry key="..\:/Users/crisl/AndroidStudioProjects/RandomFoodGenerator/app/src/main/res/layout/activity_main2.xml" value="0.2977777777777778" />
         <entry key="..\:/Users/crisl/AndroidStudioProjects/RandomFoodGenerator/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.15885416666666666" />
       </map>
     </option>

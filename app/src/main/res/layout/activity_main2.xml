@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/Title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:textSize="16sp"
+        android:layout_marginTop="50dp"
+        android:textColor="@color/black"
+        android:text="Press the button to find out what tf should you eat."
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+
+    //Where you will see the food generator
+    //Text will be blank until the user presses the button, which generates the pictures and text
+    <TextView
+        android:id="@+id/RandomlyGeneratedFood"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:textSize="20sp"
+        android:textColor="@color/black"
+        android:layout_marginTop="410dp"
+        android:layout_centerHorizontal="true"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+    <ImageView
+        android:layout_width="250dp"
+        android:layout_height="250dp"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/foodImage"
+
+        android:layout_marginTop="120dp"/>
+    <Button
+        android:id="@+id/GenerateFoodButton"
+        android:layout_width="200dp"
+        android:layout_height="60dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="480dp"
+        android:textColor="@color/white"
+        android:padding="5dp"
+        android:text="TF should I eat?"
+        android:backgroundTint="@color/red"
+        android:textSize="15sp" />
+    <TextView
+        android:id="@+id/DeveloperName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/hyperlink"
+        android:textSize="15sp"
+        android:textColor="@color/black"
+        android:textColorLink="@color/black"
+        android:layout_marginTop="570dp"
+        android:layout_centerHorizontal="true"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+    <Button
+        android:id="@+id/Exit"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:text="X"
+        android:backgroundTint="#ff4612"
+        android:textSize="13sp"
+        android:textColor="@color/white"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="10dp"
+
+
+         />
+
+
+
+</RelativeLayout>

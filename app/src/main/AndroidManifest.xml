@@ -3,13 +3,16 @@
     package="com.example.randomfoodgenerator">
 
     <application
+        android:layout_centerHorizontal="true"
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
         android:label="TF Should I Eat?"
-        android:layout_centerHorizontal="true"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.RandomFoodGenerator">
+        <activity
+            android:name=".MainActivity2"
+            android:exported="true" />
         <activity
             android:name=".MainActivity"
             android:exported="true">

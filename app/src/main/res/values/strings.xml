@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">RandomFoodGenerator</string>
+    <string name="hyperlink"><a href="https://www.crislanarafael.com">Made with ❤ by Crislana Rafael</a></string>
 </resources>
